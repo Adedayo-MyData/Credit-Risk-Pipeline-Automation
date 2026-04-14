@@ -106,3 +106,5 @@ python main_pipeline.py
 ## 👤 Author
 
 Adedayo Adebayo
+
+Data Analyst | Machine Learning Practitioner
