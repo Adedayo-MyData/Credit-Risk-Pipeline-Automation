@@ -25,25 +25,25 @@ The system is designed to:
 
 The pipeline follows a structured workflow:
 
-1. **Data Pipeline (data_pipeline.py)**
+1. [Data Pipeline](data_pipeline.py)
    - Loads raw credit data  
    - Handles missing values  
    - Performs feature engineering  
    - Outputs clean dataset  
 
-2. **Model Training (train_model.py)**
+2. [Model Training](train_model.py)
    - Trains machine learning model  
    - Saves trained model for reuse  
 
-3. **Prediction (predict.py)**
+3. [Prediction](predict.py)
    - Loads trained model  
    - Generates predictions on new/unseen data  
 
-4. **Evaluation (evaluation.py)**
+4. [Evaluation](evaluation.py)
    - Evaluates model performance  
    - Tracks key metrics (Accuracy, Precision, Recall, etc.)  
 
-5. **Pipeline Orchestration (main_pipeline.py)**
+5. [Pipeline Orchestration](main_pipeline.py)
    - Runs all steps sequentially  
    - Ensures smooth automation of the workflow  
 
