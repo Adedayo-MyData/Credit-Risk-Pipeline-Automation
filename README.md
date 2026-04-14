@@ -21,20 +21,6 @@ The system is designed to:
 
 ---
 
-## 🏗️ Project Structure
-📦 credit-risk-pipeline
-┣ 📜 data_pipeline.py # Data ingestion, cleaning, preprocessing
-┣ 📜 train_model.py # Model training and saving
-┣ 📜 predict.py # Generate predictions on new data
-┣ 📜 evaluation.py # Model performance evaluation
-┣ 📜 main_pipeline.py # Orchestrates the full pipeline
-┣ 📂 models/ # Saved trained models
-┣ 📂 data/ # Raw and processed datasets
-┗ 📜 README.md
-
-
----
-
 ## 🔄 Pipeline Workflow
 
 The pipeline follows a structured workflow:
